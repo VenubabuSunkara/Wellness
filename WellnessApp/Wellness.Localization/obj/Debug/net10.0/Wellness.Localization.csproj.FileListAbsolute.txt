@@ -1,0 +1,11 @@
+D:\WellnessApp\Wellness.Localization\bin\Debug\net10.0\Wellness.Localization.deps.json
+D:\WellnessApp\Wellness.Localization\bin\Debug\net10.0\Wellness.Localization.dll
+D:\WellnessApp\Wellness.Localization\bin\Debug\net10.0\Wellness.Localization.pdb
+D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.GeneratedMSBuildEditorConfig.editorconfig
+D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.AssemblyInfoInputs.cache
+D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.AssemblyInfo.cs
+D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.csproj.CoreCompileInputs.cache
+D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.dll
+D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\refint\Wellness.Localization.dll
+D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.pdb
+D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\ref\Wellness.Localization.dll

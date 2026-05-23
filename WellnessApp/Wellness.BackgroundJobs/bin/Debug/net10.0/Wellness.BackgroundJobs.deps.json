@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Wellness.BackgroundJobs/1.0.0": {
+        "runtime": {
+          "Wellness.BackgroundJobs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wellness.BackgroundJobs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

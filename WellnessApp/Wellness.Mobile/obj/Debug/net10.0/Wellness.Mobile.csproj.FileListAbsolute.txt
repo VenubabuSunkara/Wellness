@@ -1,0 +1,11 @@
+D:\WellnessApp\Wellness.Mobile\bin\Debug\net10.0\Wellness.Mobile.deps.json
+D:\WellnessApp\Wellness.Mobile\bin\Debug\net10.0\Wellness.Mobile.dll
+D:\WellnessApp\Wellness.Mobile\bin\Debug\net10.0\Wellness.Mobile.pdb
+D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.AssemblyInfoInputs.cache
+D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.AssemblyInfo.cs
+D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.csproj.CoreCompileInputs.cache
+D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.dll
+D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\refint\Wellness.Mobile.dll
+D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.pdb
+D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\ref\Wellness.Mobile.dll

@@ -1,0 +1,11 @@
+D:\WellnessApp\Wellness.BackgroundJobs\bin\Debug\net10.0\Wellness.BackgroundJobs.deps.json
+D:\WellnessApp\Wellness.BackgroundJobs\bin\Debug\net10.0\Wellness.BackgroundJobs.dll
+D:\WellnessApp\Wellness.BackgroundJobs\bin\Debug\net10.0\Wellness.BackgroundJobs.pdb
+D:\WellnessApp\Wellness.BackgroundJobs\obj\Debug\net10.0\Wellness.BackgroundJobs.GeneratedMSBuildEditorConfig.editorconfig
+D:\WellnessApp\Wellness.BackgroundJobs\obj\Debug\net10.0\Wellness.BackgroundJobs.AssemblyInfoInputs.cache
+D:\WellnessApp\Wellness.BackgroundJobs\obj\Debug\net10.0\Wellness.BackgroundJobs.AssemblyInfo.cs
+D:\WellnessApp\Wellness.BackgroundJobs\obj\Debug\net10.0\Wellness.BackgroundJobs.csproj.CoreCompileInputs.cache
+D:\WellnessApp\Wellness.BackgroundJobs\obj\Debug\net10.0\Wellness.BackgroundJobs.dll
+D:\WellnessApp\Wellness.BackgroundJobs\obj\Debug\net10.0\refint\Wellness.BackgroundJobs.dll
+D:\WellnessApp\Wellness.BackgroundJobs\obj\Debug\net10.0\Wellness.BackgroundJobs.pdb
+D:\WellnessApp\Wellness.BackgroundJobs\obj\Debug\net10.0\ref\Wellness.BackgroundJobs.dll

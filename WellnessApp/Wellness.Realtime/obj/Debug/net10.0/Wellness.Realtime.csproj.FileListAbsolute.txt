@@ -1,0 +1,11 @@
+D:\WellnessApp\Wellness.Realtime\bin\Debug\net10.0\Wellness.Realtime.deps.json
+D:\WellnessApp\Wellness.Realtime\bin\Debug\net10.0\Wellness.Realtime.dll
+D:\WellnessApp\Wellness.Realtime\bin\Debug\net10.0\Wellness.Realtime.pdb
+D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.GeneratedMSBuildEditorConfig.editorconfig
+D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.AssemblyInfoInputs.cache
+D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.AssemblyInfo.cs
+D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.csproj.CoreCompileInputs.cache
+D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.dll
+D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\refint\Wellness.Realtime.dll
+D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.pdb
+D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\ref\Wellness.Realtime.dll

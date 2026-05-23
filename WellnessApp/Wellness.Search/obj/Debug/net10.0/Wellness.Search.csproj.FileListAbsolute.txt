@@ -1,0 +1,11 @@
+D:\WellnessApp\Wellness.Search\bin\Debug\net10.0\Wellness.Search.deps.json
+D:\WellnessApp\Wellness.Search\bin\Debug\net10.0\Wellness.Search.dll
+D:\WellnessApp\Wellness.Search\bin\Debug\net10.0\Wellness.Search.pdb
+D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.GeneratedMSBuildEditorConfig.editorconfig
+D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.AssemblyInfoInputs.cache
+D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.AssemblyInfo.cs
+D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.csproj.CoreCompileInputs.cache
+D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.dll
+D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\refint\Wellness.Search.dll
+D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.pdb
+D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\ref\Wellness.Search.dll

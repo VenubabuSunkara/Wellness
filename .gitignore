@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WellnessApp/.vs
+/WellnessApp/Wellness.AI/bin/Debug/net10.0
+/WellnessApp/Wellness.AI/obj
+/WellnessApp/Wellness.API/bin/Debug/net10.0
+/WellnessApp/Wellness.API/obj
+/WellnessApp/Wellness.Application/bin/Debug/net10.0

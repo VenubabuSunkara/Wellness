@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Wellness.Files/1.0.0": {
+        "runtime": {
+          "Wellness.Files.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wellness.Files/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

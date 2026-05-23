@@ -1,0 +1,11 @@
+D:\WellnessApp\Wellness.EventBus\bin\Debug\net10.0\Wellness.EventBus.deps.json
+D:\WellnessApp\Wellness.EventBus\bin\Debug\net10.0\Wellness.EventBus.dll
+D:\WellnessApp\Wellness.EventBus\bin\Debug\net10.0\Wellness.EventBus.pdb
+D:\WellnessApp\Wellness.EventBus\obj\Debug\net10.0\Wellness.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+D:\WellnessApp\Wellness.EventBus\obj\Debug\net10.0\Wellness.EventBus.AssemblyInfoInputs.cache
+D:\WellnessApp\Wellness.EventBus\obj\Debug\net10.0\Wellness.EventBus.AssemblyInfo.cs
+D:\WellnessApp\Wellness.EventBus\obj\Debug\net10.0\Wellness.EventBus.csproj.CoreCompileInputs.cache
+D:\WellnessApp\Wellness.EventBus\obj\Debug\net10.0\Wellness.EventBus.dll
+D:\WellnessApp\Wellness.EventBus\obj\Debug\net10.0\refint\Wellness.EventBus.dll
+D:\WellnessApp\Wellness.EventBus\obj\Debug\net10.0\Wellness.EventBus.pdb
+D:\WellnessApp\Wellness.EventBus\obj\Debug\net10.0\ref\Wellness.EventBus.dll

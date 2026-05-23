@@ -1,0 +1,11 @@
+D:\WellnessApp\Wellness.Contracts\bin\Debug\net10.0\Wellness.Contracts.deps.json
+D:\WellnessApp\Wellness.Contracts\bin\Debug\net10.0\Wellness.Contracts.dll
+D:\WellnessApp\Wellness.Contracts\bin\Debug\net10.0\Wellness.Contracts.pdb
+D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.AssemblyInfoInputs.cache
+D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.AssemblyInfo.cs
+D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.csproj.CoreCompileInputs.cache
+D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.dll
+D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\refint\Wellness.Contracts.dll
+D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.pdb
+D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\ref\Wellness.Contracts.dll

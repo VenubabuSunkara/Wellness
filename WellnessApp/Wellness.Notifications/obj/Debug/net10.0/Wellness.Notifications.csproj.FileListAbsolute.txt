@@ -1,0 +1,11 @@
+D:\WellnessApp\Wellness.Notifications\bin\Debug\net10.0\Wellness.Notifications.deps.json
+D:\WellnessApp\Wellness.Notifications\bin\Debug\net10.0\Wellness.Notifications.dll
+D:\WellnessApp\Wellness.Notifications\bin\Debug\net10.0\Wellness.Notifications.pdb
+D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.GeneratedMSBuildEditorConfig.editorconfig
+D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.AssemblyInfoInputs.cache
+D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.AssemblyInfo.cs
+D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.csproj.CoreCompileInputs.cache
+D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.dll
+D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\refint\Wellness.Notifications.dll
+D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.pdb
+D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\ref\Wellness.Notifications.dll

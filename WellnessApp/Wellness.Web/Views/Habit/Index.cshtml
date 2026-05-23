@@ -1,0 +1,42 @@
+﻿<table class="table table-bordered">
+
+    <thead>
+
+        <tr>
+
+            <th>Habit</th>
+
+            <th>Actions</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>@item.Title</td>
+
+                <td>
+
+                    <a href="/Habit/Edit/@item.Id"
+                       class="btn btn-warning">
+                        Edit
+                    </a>
+
+                    <a href="/Habit/Delete/@item.Id"
+                       class="btn btn-danger">
+                        Delete
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

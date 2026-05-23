@@ -1,0 +1,22 @@
+<Solution>
+  <Project Path="Wellness.AI/Wellness.AI.csproj" Id="6c7fba7d-6359-4e5f-a6f9-6dd281820fd3" />
+  <Project Path="Wellness.API/Wellness.API.csproj" />
+  <Project Path="Wellness.Application/Wellness.Application.csproj" />
+  <Project Path="Wellness.BackgroundJobs/Wellness.BackgroundJobs.csproj" Id="c318f63b-c597-474f-8cf9-2098fd6760c1" />
+  <Project Path="Wellness.Cache/Wellness.Cache.csproj" Id="adc66acf-42fb-4140-93f0-0c4bebb36b9b" />
+  <Project Path="Wellness.Contracts/Wellness.Contracts.csproj" Id="252439d2-c55e-431b-9559-ebdb9b53bbe4" />
+  <Project Path="Wellness.Domain/Wellness.Domain.csproj" />
+  <Project Path="Wellness.EventBus/Wellness.EventBus.csproj" Id="ac3bb51c-cd0e-46a5-98da-47dd9569df58" />
+  <Project Path="Wellness.Files/Wellness.Files.csproj" Id="62bad390-db5e-4fde-9af2-9fc6ff9b4805" />
+  <Project Path="Wellness.Gateway/Wellness.Gateway.csproj" Id="0564a18f-4f1b-4505-8372-1a4035ae6a7b" />
+  <Project Path="Wellness.Infrastructure/Wellness.Infrastructure.csproj" />
+  <Project Path="Wellness.Localization/Wellness.Localization.csproj" Id="4bd5c2a4-95a5-4014-966d-14f48d4ed7f5" />
+  <Project Path="Wellness.Mobile/Wellness.Mobile.csproj" Id="22fa3dbe-ced3-4b4b-b983-f6cd968ee656" />
+  <Project Path="Wellness.Notifications/Wellness.Notifications.csproj" Id="3420a501-f7b1-4240-aa0c-a3effb4aa3a7" />
+  <Project Path="Wellness.Persistence/Wellness.Persistence.csproj" />
+  <Project Path="Wellness.Realtime/Wellness.Realtime.csproj" Id="4333dedf-ee60-4aea-971e-a9a6022ba9be" />
+  <Project Path="Wellness.Search/Wellness.Search.csproj" Id="9b77da76-6f96-4fd4-88b1-06c9ec5513f6" />
+  <Project Path="Wellness.Shared/Wellness.Shared.csproj" Id="17270097-b158-45a8-a320-fd8f07fef7fe" />
+  <Project Path="Wellness.Tests/Wellness.Tests.csproj" Id="b511d0a9-729b-47d8-a106-7846742de278" />
+  <Project Path="Wellness.Web/Wellness.Web.csproj" />
+</Solution>
