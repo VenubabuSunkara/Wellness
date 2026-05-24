@@ -8,13 +8,13 @@
 
   <ItemGroup>
     <Folder Include="Features\AI\" />
-    <Folder Include="Common\" />
     <Folder Include="Behaviors\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Validators\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
     <PackageReference Include="FluentValidation" Version="12.1.1" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />

@@ -9,3 +9,15 @@ D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.dll
 D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\refint\Wellness.Localization.dll
 D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.pdb
 D:\WellnessApp\Wellness.Localization\obj\Debug\net10.0\ref\Wellness.Localization.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\bin\Debug\net10.0\Wellness.Localization.deps.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\bin\Debug\net10.0\Wellness.Localization.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\bin\Debug\net10.0\Wellness.Localization.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.GeneratedMSBuildEditorConfig.editorconfig
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.AssemblyInfoInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.AssemblyInfo.cs
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.csproj.CoreCompileInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.sourcelink.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\obj\Debug\net10.0\refint\Wellness.Localization.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\obj\Debug\net10.0\Wellness.Localization.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Localization\obj\Debug\net10.0\ref\Wellness.Localization.dll

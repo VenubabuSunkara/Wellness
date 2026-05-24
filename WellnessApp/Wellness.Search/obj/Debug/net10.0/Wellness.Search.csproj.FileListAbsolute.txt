@@ -9,3 +9,15 @@ D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.dll
 D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\refint\Wellness.Search.dll
 D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.pdb
 D:\WellnessApp\Wellness.Search\obj\Debug\net10.0\ref\Wellness.Search.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\bin\Debug\net10.0\Wellness.Search.deps.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\bin\Debug\net10.0\Wellness.Search.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\bin\Debug\net10.0\Wellness.Search.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.GeneratedMSBuildEditorConfig.editorconfig
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.AssemblyInfoInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.AssemblyInfo.cs
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.csproj.CoreCompileInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.sourcelink.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\obj\Debug\net10.0\refint\Wellness.Search.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\obj\Debug\net10.0\Wellness.Search.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Search\obj\Debug\net10.0\ref\Wellness.Search.dll

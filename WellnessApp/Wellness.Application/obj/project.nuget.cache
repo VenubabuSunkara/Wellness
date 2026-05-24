@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vID9KbFgNkc=",
+  "dgSpecHash": "sHjHulQ8G8k=",
   "success": true,
   "projectFilePath": "D:\\VenuWellness\\Wellness\\WellnessApp\\Wellness.Application\\Wellness.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",

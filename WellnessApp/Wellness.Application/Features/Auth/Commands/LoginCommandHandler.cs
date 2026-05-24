@@ -1,8 +1,5 @@
 ﻿using MediatR;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Wellness.Application.DTOs;
 using Wellness.Application.Interfaces;
 
@@ -22,8 +19,13 @@ namespace Wellness.Application.Features.Auth.Commands
             {
                 throw new Exception("Invalid User");
             }
+            // Save password
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
 
-            if (user.PasswordHash != request.Password)
+            // Verify password
+            bool isValid = BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash);
+
+            if (!isValid)
             {
                 throw new Exception("Invalid Password");
             }

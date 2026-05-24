@@ -9,3 +9,15 @@ D:\WellnessApp\Wellness.Shared\obj\Debug\net10.0\Wellness.Shared.dll
 D:\WellnessApp\Wellness.Shared\obj\Debug\net10.0\refint\Wellness.Shared.dll
 D:\WellnessApp\Wellness.Shared\obj\Debug\net10.0\Wellness.Shared.pdb
 D:\WellnessApp\Wellness.Shared\obj\Debug\net10.0\ref\Wellness.Shared.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\bin\Debug\net10.0\Wellness.Shared.deps.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\bin\Debug\net10.0\Wellness.Shared.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\bin\Debug\net10.0\Wellness.Shared.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\obj\Debug\net10.0\Wellness.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\obj\Debug\net10.0\Wellness.Shared.AssemblyInfoInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\obj\Debug\net10.0\Wellness.Shared.AssemblyInfo.cs
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\obj\Debug\net10.0\Wellness.Shared.csproj.CoreCompileInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\obj\Debug\net10.0\Wellness.Shared.sourcelink.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\obj\Debug\net10.0\Wellness.Shared.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\obj\Debug\net10.0\refint\Wellness.Shared.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\obj\Debug\net10.0\Wellness.Shared.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Shared\obj\Debug\net10.0\ref\Wellness.Shared.dll

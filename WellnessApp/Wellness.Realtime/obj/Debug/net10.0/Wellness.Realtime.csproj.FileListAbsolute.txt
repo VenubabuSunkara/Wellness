@@ -9,3 +9,15 @@ D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.dll
 D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\refint\Wellness.Realtime.dll
 D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.pdb
 D:\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\ref\Wellness.Realtime.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\bin\Debug\net10.0\Wellness.Realtime.deps.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\bin\Debug\net10.0\Wellness.Realtime.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\bin\Debug\net10.0\Wellness.Realtime.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.GeneratedMSBuildEditorConfig.editorconfig
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.AssemblyInfoInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.AssemblyInfo.cs
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.csproj.CoreCompileInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.sourcelink.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\refint\Wellness.Realtime.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\Wellness.Realtime.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Realtime\obj\Debug\net10.0\ref\Wellness.Realtime.dll

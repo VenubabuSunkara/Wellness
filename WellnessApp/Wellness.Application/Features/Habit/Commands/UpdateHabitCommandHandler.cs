@@ -15,9 +15,7 @@ namespace Wellness.Application.Features.Habit.Commands
             _repository = repository;
         }
 
-        public async Task<bool> Handle(
-            UpdateHabitCommand request,
-            CancellationToken cancellationToken)
+        public async Task<bool> Handle(UpdateHabitCommand request, CancellationToken cancellationToken)
         {
             var habit = await _repository.GetByIdAsync(request.Id);
 

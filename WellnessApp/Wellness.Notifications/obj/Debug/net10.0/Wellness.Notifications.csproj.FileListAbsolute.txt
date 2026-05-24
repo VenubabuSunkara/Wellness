@@ -9,3 +9,15 @@ D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.d
 D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\refint\Wellness.Notifications.dll
 D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.pdb
 D:\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\ref\Wellness.Notifications.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\bin\Debug\net10.0\Wellness.Notifications.deps.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\bin\Debug\net10.0\Wellness.Notifications.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\bin\Debug\net10.0\Wellness.Notifications.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.GeneratedMSBuildEditorConfig.editorconfig
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.AssemblyInfoInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.AssemblyInfo.cs
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.csproj.CoreCompileInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.sourcelink.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\refint\Wellness.Notifications.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\Wellness.Notifications.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Notifications\obj\Debug\net10.0\ref\Wellness.Notifications.dll

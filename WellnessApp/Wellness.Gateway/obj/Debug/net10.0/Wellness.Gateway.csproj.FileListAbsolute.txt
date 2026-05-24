@@ -9,3 +9,15 @@ D:\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\Wellness.Gateway.dll
 D:\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\refint\Wellness.Gateway.dll
 D:\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\Wellness.Gateway.pdb
 D:\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\ref\Wellness.Gateway.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\bin\Debug\net10.0\Wellness.Gateway.deps.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\bin\Debug\net10.0\Wellness.Gateway.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\bin\Debug\net10.0\Wellness.Gateway.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\Wellness.Gateway.GeneratedMSBuildEditorConfig.editorconfig
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\Wellness.Gateway.AssemblyInfoInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\Wellness.Gateway.AssemblyInfo.cs
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\Wellness.Gateway.csproj.CoreCompileInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\Wellness.Gateway.sourcelink.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\Wellness.Gateway.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\refint\Wellness.Gateway.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\Wellness.Gateway.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Gateway\obj\Debug\net10.0\ref\Wellness.Gateway.dll

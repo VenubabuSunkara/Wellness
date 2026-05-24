@@ -9,3 +9,15 @@ D:\WellnessApp\Wellness.Domain\obj\Debug\net10.0\Wellness.Domain.dll
 D:\WellnessApp\Wellness.Domain\obj\Debug\net10.0\refint\Wellness.Domain.dll
 D:\WellnessApp\Wellness.Domain\obj\Debug\net10.0\Wellness.Domain.pdb
 D:\WellnessApp\Wellness.Domain\obj\Debug\net10.0\ref\Wellness.Domain.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\bin\Debug\net10.0\Wellness.Domain.deps.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\bin\Debug\net10.0\Wellness.Domain.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\bin\Debug\net10.0\Wellness.Domain.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\obj\Debug\net10.0\Wellness.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\obj\Debug\net10.0\Wellness.Domain.AssemblyInfoInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\obj\Debug\net10.0\Wellness.Domain.AssemblyInfo.cs
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\obj\Debug\net10.0\Wellness.Domain.csproj.CoreCompileInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\obj\Debug\net10.0\Wellness.Domain.sourcelink.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\obj\Debug\net10.0\Wellness.Domain.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\obj\Debug\net10.0\refint\Wellness.Domain.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\obj\Debug\net10.0\Wellness.Domain.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Domain\obj\Debug\net10.0\ref\Wellness.Domain.dll

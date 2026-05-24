@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi;
 using System.Text;
 using Wellness.Application.DependencyInjection;
 using Wellness.Application.Features.Auth.Commands;
@@ -15,8 +16,7 @@ using Wellness.Persistence.Seed;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -52,7 +52,56 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc(
+        "v1",
+        new OpenApiInfo
+        {
+            Title = "Wellness API",
+            Version = "v1"
+        });
+
+    // JWT AUTH
+
+    options.AddSecurityDefinition(
+        "Bearer",
+        new OpenApiSecurityScheme
+        {
+            Name = "Authorization",
+
+            Type = SecuritySchemeType.Http,
+
+            Scheme = "bearer",
+
+            BearerFormat = "JWT",
+
+            In = ParameterLocation.Header,
+
+            Description =
+                "Enter JWT Token"
+        });
+
+    //options.AddSecurityRequirement(
+    //    new OpenApiSecurityRequirement
+    //    {
+    //        {
+    //            new OpenApiSecurityScheme
+    //            {
+    //                Reference =
+    //                    new BaseOpenApiReference
+    //                    {
+    //                        Type =
+    //                            ReferenceType.SecurityScheme,
+
+    //                        Id = "Bearer"
+    //                    }
+    //            },
+    //            Array.Empty<string>()
+    //        }
+    //    });
+});
+
 builder.Services.AddApplication();
 builder.Services.AddPersistence(
     builder.Configuration);
@@ -92,7 +141,14 @@ using (var scope = app.Services.CreateScope())
 }
 app.UseSwagger();
 
-app.UseSwaggerUI();
+app.UseSwaggerUI(options =>
+{
+    options.SwaggerEndpoint(
+        "/swagger/v1/swagger.json",
+        "Wellness API V1");
+
+    options.RoutePrefix = string.Empty;
+});
 
 app.UseHttpsRedirection();
 

@@ -9,3 +9,15 @@ D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.dll
 D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\refint\Wellness.Mobile.dll
 D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.pdb
 D:\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\ref\Wellness.Mobile.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\bin\Debug\net10.0\Wellness.Mobile.deps.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\bin\Debug\net10.0\Wellness.Mobile.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\bin\Debug\net10.0\Wellness.Mobile.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.AssemblyInfoInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.AssemblyInfo.cs
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.csproj.CoreCompileInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.sourcelink.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\refint\Wellness.Mobile.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\Wellness.Mobile.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Mobile\obj\Debug\net10.0\ref\Wellness.Mobile.dll

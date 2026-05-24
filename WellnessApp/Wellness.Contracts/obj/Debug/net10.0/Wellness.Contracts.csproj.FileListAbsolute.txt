@@ -9,3 +9,15 @@ D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.dll
 D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\refint\Wellness.Contracts.dll
 D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.pdb
 D:\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\ref\Wellness.Contracts.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\bin\Debug\net10.0\Wellness.Contracts.deps.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\bin\Debug\net10.0\Wellness.Contracts.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\bin\Debug\net10.0\Wellness.Contracts.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.AssemblyInfoInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.AssemblyInfo.cs
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.csproj.CoreCompileInputs.cache
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.sourcelink.json
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\refint\Wellness.Contracts.dll
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\Wellness.Contracts.pdb
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Contracts\obj\Debug\net10.0\ref\Wellness.Contracts.dll

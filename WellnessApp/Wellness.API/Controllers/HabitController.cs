@@ -6,14 +6,9 @@ namespace Wellness.API.Controllers
 {
     [ApiController]
     [Route("api/habits")]
-    public class HabitController : ControllerBase
+    public class HabitController(IMediator mediator) : ControllerBase
     {
-        private readonly IMediator _mediator;
-
-        public HabitController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
+        private readonly IMediator _mediator = mediator;
 
         [HttpPost]
         public async Task<IActionResult> Create(

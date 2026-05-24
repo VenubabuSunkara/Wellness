@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wellness.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f45253b4d86345ed43120044deff2bb5264dda88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c49b8c0e18c8659c1875f31154c7aae78a9a207")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wellness.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wellness.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
