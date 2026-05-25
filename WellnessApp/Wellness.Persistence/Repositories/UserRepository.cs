@@ -1,7 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Wellness.Application.Common.Exceptions;
 using Wellness.Application.Interfaces;
 using Wellness.Domain.Entities;
 using Wellness.Persistence.Context;
@@ -33,6 +35,21 @@ namespace Wellness.Persistence.Repositories
             var user = await _context.Users.AsNoTracking()
                 .FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
             return user is null ? throw new Exception("User not found") : user;
+        }
+        public async Task UpdateUserAsync(User user, Guid currentUserId, CancellationToken cancellationToken)
+        {
+            var existingUser = await _context.Users
+                .FirstOrDefaultAsync(x => x.Id == user.Id, cancellationToken) ?? throw new NotFoundException("User not found");
+            existingUser.FirstName = user.FirstName;
+            existingUser.LastName = user.LastName;
+            existingUser.Email = user.Email;
+            existingUser.PhoneNumber = user.PhoneNumber;
+            existingUser.ResetToken = user.ResetToken;
+            existingUser.ResetTokenExpiry = user.ResetTokenExpiry;
+            existingUser.UpdatedDate = DateTime.UtcNow;
+            existingUser.UpdatedBy = currentUserId;
+
+            await _context.SaveChangesAsync(cancellationToken);
         }
     }
 }

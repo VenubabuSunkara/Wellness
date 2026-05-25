@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -30,7 +31,7 @@ namespace Wellness.Application.Features.Register.Commands
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 Email = request.Email,
-                PasswordHash = request.Password,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password),
                 IsActive = true
             };
 

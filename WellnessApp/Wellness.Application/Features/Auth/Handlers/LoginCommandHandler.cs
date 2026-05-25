@@ -1,9 +1,9 @@
-﻿using MediatR;
+using MediatR;
 using Microsoft.Extensions.Configuration;
 using Wellness.Application.DTOs;
 using Wellness.Application.Interfaces;
 
-namespace Wellness.Application.Features.Auth.Commands
+namespace Wellness.Application.DTOs.Commands
 {
     public class LoginCommandHandler(IUserRepository userRepository, IJwtService jwtService,
         IConfiguration configuration) : IRequestHandler<LoginCommand, LoginResponseDto>
@@ -13,15 +13,7 @@ namespace Wellness.Application.Features.Auth.Commands
         private readonly IConfiguration _configuration = configuration;
         public async Task<LoginResponseDto> Handle(LoginCommand request, CancellationToken cancellationToken)
         {
-            var user = await _userRepository.GetByEmailAsync(request.Email, cancellationToken);
-
-            if (user == null)
-            {
-                throw new Exception("Invalid User");
-            }
-            // Save password
-            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
-
+            var user = await _userRepository.GetByEmailAsync(request.Email, cancellationToken) ?? throw new Exception("Invalid User");
             // Verify password
             bool isValid = BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash);
 
@@ -31,10 +23,21 @@ namespace Wellness.Application.Features.Auth.Commands
             }
 
             var token = _jwtService.GenerateToken(user);
+            var refreshToken = _jwtService.GenerateRefreshToken();
+            
+            user.RefreshTokens.Add(new Domain.Entities.RefreshToken
+            {
+                Token = refreshToken,
+                ExpiryDate = DateTime.UtcNow.AddDays(7), // Hardcoded 7 days for now, can be moved to config
+                UserId = user.Id
+            });
+
+            await _userRepository.SaveChangesAsync(cancellationToken);
 
             return new LoginResponseDto
             {
                 Token = token,
+                RefreshToken = refreshToken,
                 FullName = $"{user.FirstName} {user.LastName}",
                 Expiration = DateTime.UtcNow.AddMinutes(Convert.ToDouble(_configuration["Jwt:DurationInMinutes"]))
             };

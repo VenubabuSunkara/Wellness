@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Wellness.Application.DTOs;
 
-namespace Wellness.Application.Features.Auth.Commands
+namespace Wellness.Application.DTOs.Commands
 {
     public class LoginCommand : IRequest<LoginResponseDto>
     {

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -11,5 +11,6 @@ namespace Wellness.Application.DTOs
         public string FullName { get; set; } = string.Empty;
 
         public DateTime Expiration { get; set; }
+        public string RefreshToken { get; set; } = string.Empty;
     }
 }

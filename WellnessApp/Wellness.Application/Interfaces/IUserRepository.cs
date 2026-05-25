@@ -11,6 +11,7 @@ namespace Wellness.Application.Interfaces
         Task AddAsync(User user, CancellationToken cancellationToken = default);
         Task SaveChangesAsync(CancellationToken cancellationToken = default);
         Task<User> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
+        Task UpdateUserAsync(User user, Guid currentUserId, CancellationToken cancellationToken);
 
     }
 }

@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -54,6 +54,13 @@ namespace Wellness.Infrastructure.Services
 
             return new JwtSecurityTokenHandler()
                 .WriteToken(token);
+        }
+        public string GenerateRefreshToken()
+        {
+            var randomNumber = new byte[32];
+            using var rng = System.Security.Cryptography.RandomNumberGenerator.Create();
+            rng.GetBytes(randomNumber);
+            return Convert.ToBase64String(randomNumber);
         }
     }
 }
