@@ -3,58 +3,98 @@ using Wellness.Application.Interfaces;
 using Wellness.Domain.Common;
 using Wellness.Persistence.Context;
 
-namespace Wellness.Persistence.Repositories
+namespace Wellness.Persistence.Repositories;
+
+public class GenericRepository<T>(ApplicationDbContext context) : IGenericRepository<T> where T : BaseEntity
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
+    protected ApplicationDbContext Context { get; } = context;
+
+    protected DbSet<T> DbSet { get; } = context.Set<T>();
+
+    public ValueTask<T?> GetByIdAsync(
+        Guid id,
+        CancellationToken cancellationToken = default)
     {
-        protected readonly ApplicationDbContext _context;
-        protected readonly DbSet<T> _dbSet;
+        return new ValueTask<T?>(
+            DbSet
+                .AsNoTracking()
+                .FirstOrDefaultAsync(
+                    x => x.Id == id && !x.IsDeleted,
+                    cancellationToken));
+    }
 
-        public GenericRepository(ApplicationDbContext context)
-        {
-            _context = context;
-            _dbSet = context.Set<T>();
-        }
+    public async Task<IReadOnlyList<T>> GetAllAsync(
+        CancellationToken cancellationToken = default)
+    {
+        return await DbSet
+            .AsNoTracking()
+            .Where(x => !x.IsDeleted)
+            .ToListAsync(cancellationToken);
+    }
 
-        public Task<T?> GetByIdAsync(Guid id)
-        {
-            return _dbSet.FirstOrDefaultAsync(x => x.Id == id);
-        }
+    public async Task AddAsync(
+        T entity,
+        CancellationToken cancellationToken = default)
+    {
+        await DbSet.AddAsync(entity, cancellationToken);
+        await Context.SaveChangesAsync(cancellationToken);
+    }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
-        {
-            return await _dbSet.ToListAsync();
-        }
+    public async Task AddRangeAsync(
+        IEnumerable<T> entities,
+        CancellationToken cancellationToken = default)
+    {
+        await DbSet.AddRangeAsync(entities, cancellationToken);
+        await Context.SaveChangesAsync(cancellationToken);
+    }
 
-        public async Task AddAsync(T entity)
-        {
-            await _dbSet.AddAsync(entity);
-            await _context.SaveChangesAsync();
-        }
+    public Task UpdateAsync(
+        T entity,
+        CancellationToken cancellationToken = default)
+    {
+        DbSet.Update(entity);
+        return Context.SaveChangesAsync(cancellationToken);
+    }
 
-        public Task UpdateAsync(T entity)
-        {
-            _dbSet.Update(entity);
-            return _context.SaveChangesAsync();
-        }
+    public Task DeleteAsync(
+        Guid id,
+        CancellationToken cancellationToken = default)
+    {
+        return DbSet
+            .Where(x => x.Id == id)
+            .ExecuteUpdateAsync(
+                x => x.SetProperty(
+                    p => p.IsDeleted,
+                    true),
+                cancellationToken);
+    }
 
-        public async Task DeleteAsync(Guid id)
-        {
-            var entity = await GetByIdAsync(id);
+    public Task DeleteAsync(
+        T entity,
+        CancellationToken cancellationToken = default)
+    {
+        entity.IsDeleted = true;
 
-            if (entity == null)
-                return;
+        DbSet.Update(entity);
 
-            entity.IsDeleted = true;
+        return Context.SaveChangesAsync(cancellationToken);
+    }
 
-            _dbSet.Update(entity);
+    public IQueryable<T> Query()
+        => DbSet
+            .AsNoTracking()
+            .Where(x => !x.IsDeleted);
 
-            await _context.SaveChangesAsync();
-        }
+    public Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken = default)
+    {
+        return DbSet
+            .AnyAsync(
+                x => x.Id == id && !x.IsDeleted,
+                cancellationToken);
+    }
 
-        public IQueryable<T> Query()
-        {
-            return _dbSet.AsQueryable();
-        }
+    public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        return Context.SaveChangesAsync(cancellationToken);
     }
 }

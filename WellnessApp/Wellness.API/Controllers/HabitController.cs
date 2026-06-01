@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Wellness.Application.Features.Habit.Commands;
+using Wellness.Application.Features.Habits.Commands;
+using Wellness.Application.Features.Habits.Queries;
 
 namespace Wellness.API.Controllers
 {
@@ -11,8 +12,7 @@ namespace Wellness.API.Controllers
         private readonly IMediator _mediator = mediator;
 
         [HttpPost]
-        public async Task<IActionResult> Create(
-            CreateHabitCommand command)
+        public async Task<IActionResult> Create(CreateHabitCommand command)
         {
             var result = await _mediator.Send(command);
 
@@ -43,11 +43,7 @@ namespace Wellness.API.Controllers
         [HttpGet("{userId}")]
         public async Task<IActionResult> Get(Guid userId)
         {
-            var result = await _mediator.Send(
-                new GetHabitsQuery
-                {
-                    UserId = userId
-                });
+            var result = await _mediator.Send(new GetHabitsQuery(userId));
 
             return Ok(result);
         }

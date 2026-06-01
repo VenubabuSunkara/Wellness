@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wellness.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c49b8c0e18c8659c1875f31154c7aae78a9a207")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e4982271617853a87ad8c4f7ba473bf1a3f91a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wellness.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wellness.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

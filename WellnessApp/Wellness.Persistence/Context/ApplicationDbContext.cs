@@ -38,6 +38,15 @@ namespace Wellness.Persistence.Context
         public DbSet<AIConversation> AIConversations { get; set; }
 
         public DbSet<RefreshToken> RefreshTokens { get; set; }
+        public DbSet<WellnessProfile> WellnessProfiles { get; set; }
+        public DbSet<DietPlan> DietPlans { get; set; }
+
+        public DbSet<Appointment> Appointments { get; set; }
+
+        public DbSet<WaterIntake> WaterIntakes { get; set; }
+
+        public DbSet<WeightTracking> WeightTrackings { get; set; }
+
 
         protected override void OnModelCreating(
             ModelBuilder modelBuilder)

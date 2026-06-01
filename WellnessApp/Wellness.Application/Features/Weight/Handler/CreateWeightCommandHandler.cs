@@ -2,18 +2,17 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Wellness.Application.Features.Weight.Commands;
 using Wellness.Application.Interfaces;
 using Wellness.Domain.Entities;
 
-namespace Wellness.Application.Features.Weight.Commands
+namespace Wellness.Application.Features.Weight.Handler
 {
     public class CreateWeightCommandHandler(IWeightRepository repository) : IRequestHandler<CreateWeightCommand, Guid>
     {
         private readonly IWeightRepository _repository = repository;
 
-        public async Task<Guid> Handle(
-            CreateWeightCommand request,
-            CancellationToken cancellationToken)
+        public async Task<Guid> Handle(CreateWeightCommand request, CancellationToken cancellationToken)
         {
             var weight = new WeightEntry
             {

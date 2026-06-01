@@ -2,9 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Wellness.Application.Features.Habits.Commands;
 using Wellness.Application.Interfaces;
 
-namespace Wellness.Application.Features.Habit.Commands
+namespace Wellness.Application.Features.Habits.Handler
 {
     public class DeleteHabitCommandHandler : IRequestHandler<DeleteHabitCommand, bool>
     {

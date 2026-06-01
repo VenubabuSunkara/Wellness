@@ -5,18 +5,43 @@ using Wellness.Domain.Common;
 
 namespace Wellness.Application.Interfaces
 {
-    public interface IGenericRepository<T> where T : BaseEntity
+    public interface IGenericRepository<T>
+      where T : BaseEntity
     {
-        Task<T?> GetByIdAsync(Guid id);
+        ValueTask<T?> GetByIdAsync(
+            Guid id,
+            CancellationToken cancellationToken = default);
 
-        Task<IEnumerable<T>> GetAllAsync();
+        Task<IReadOnlyList<T>> GetAllAsync(
+            CancellationToken cancellationToken = default);
 
-        Task AddAsync(T entity);
+        Task AddAsync(
+            T entity,
+            CancellationToken cancellationToken = default);
 
-        Task UpdateAsync(T entity);
+        Task AddRangeAsync(
+            IEnumerable<T> entities,
+            CancellationToken cancellationToken = default);
 
-        Task DeleteAsync(Guid id);
+        Task UpdateAsync(
+            T entity,
+            CancellationToken cancellationToken = default);
+
+        Task DeleteAsync(
+            Guid id,
+            CancellationToken cancellationToken = default);
+
+        Task DeleteAsync(
+            T entity,
+            CancellationToken cancellationToken = default);
+
+        Task<bool> ExistsAsync(
+            Guid id,
+            CancellationToken cancellationToken = default);
 
         IQueryable<T> Query();
+
+        Task<int> SaveChangesAsync(
+            CancellationToken cancellationToken = default);
     }
 }

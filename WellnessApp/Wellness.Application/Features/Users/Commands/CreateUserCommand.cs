@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Wellness.Shared.Common;
 
-namespace Wellness.Application.Features.Users.Commands.CreateUser
+namespace Wellness.Application.Features.Users.Commands
 {
     public class CreateUserCommand : IRequest<ApiResponse<Guid>>
     {

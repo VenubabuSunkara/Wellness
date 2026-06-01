@@ -1,17 +1,16 @@
 ﻿using MediatR;
+using Wellness.Application.Features.Habits.Commands;
 using Wellness.Application.Interfaces;
-
-namespace Wellness.Application.Features.Habit.Commands
+using Wellness.Domain.Entities;
+namespace Wellness.Application.Features.Habits.Handler
 {
-    public class CreateHabitCommandHandler : IRequestHandler<CreateHabitCommand, Guid>
+    public class CreateHabitCommandHandler(IHabitRepository habitRepository) : IRequestHandler<CreateHabitCommand, Guid>
     {
-        private readonly IHabitRepository _habitRepository;
-
-        public CreateHabitCommandHandler(IHabitRepository habitRepository) => _habitRepository = habitRepository;
+        private readonly IHabitRepository _habitRepository = habitRepository;
 
         public async Task<Guid> Handle(CreateHabitCommand request, CancellationToken cancellationToken)
         {
-            var habit = new Wellness.Domain.Entities.Habit
+            var habit = new Habit
             {
                 UserId = request.UserId,
                 Title = request.Title,

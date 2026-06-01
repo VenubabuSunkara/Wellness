@@ -1,11 +1,10 @@
 using MediatR;
 using Microsoft.Extensions.Configuration;
-using Wellness.Application.DTOs;
 using Wellness.Application.Interfaces;
-using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace Wellness.Application.DTOs.Commands
 {

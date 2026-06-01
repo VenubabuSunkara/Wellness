@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using Wellness.Domain.Common;
 
 namespace Wellness.Domain.Entities
@@ -19,6 +16,6 @@ namespace Wellness.Domain.Entities
 
         public User User { get; set; } = new();
 
-        public ICollection<HabitTracking> HabitTrackings { get; set; }= new HashSet<HabitTracking>();
+        public ICollection<HabitTracking> HabitTrackings { get; set; } = [];
     }
 }

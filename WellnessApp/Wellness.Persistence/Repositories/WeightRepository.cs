@@ -8,8 +8,7 @@ using Wellness.Persistence.Context;
 
 namespace Wellness.Persistence.Repositories
 {
-    public class WeightRepository(
-        ApplicationDbContext context) : IWeightRepository
+    public class WeightRepository(ApplicationDbContext context) : IWeightRepository
     {
         private readonly ApplicationDbContext _context = context;
 

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Wellness.Application.Features.Habit.Commands
+namespace Wellness.Application.Features.Habits.Commands
 {
     public class DeleteHabitCommand : IRequest<bool>
     {
