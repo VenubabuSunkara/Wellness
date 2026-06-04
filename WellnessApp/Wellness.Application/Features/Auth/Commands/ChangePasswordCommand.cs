@@ -3,14 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Wellness.Application.DTOs.Commands
+namespace Wellness.Application.Features.Auth.Commands
 {
-    public class ChangePasswordCommand : IRequest<bool>
-    {
-        public Guid UserId { get; set; }
-
-        public string CurrentPassword { get; set; } = default!;
-
-        public string NewPassword { get; set; } = default!;
-    }
+    public sealed record ChangePasswordCommand(Guid UserId, string CurrentPassword, string NewPassword) : IRequest<bool>;
 }

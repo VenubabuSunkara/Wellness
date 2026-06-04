@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Wellness.Application.DTOs;
+using Wellness.Application.Features.Auth.Commands;
 using Wellness.Application.Interfaces;
 
 namespace Wellness.Application.DTOs.Commands

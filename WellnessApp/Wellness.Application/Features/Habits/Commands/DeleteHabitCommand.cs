@@ -5,8 +5,5 @@ using System.Text;
 
 namespace Wellness.Application.Features.Habits.Commands
 {
-    public class DeleteHabitCommand : IRequest<bool>
-    {
-        public Guid Id { get; set; }
-    }
+    public sealed record DeleteHabitCommand(Guid Id) : IRequest<bool>;
 }

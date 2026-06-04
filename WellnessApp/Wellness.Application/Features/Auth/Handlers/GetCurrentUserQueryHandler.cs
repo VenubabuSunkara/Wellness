@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Wellness.Application.DTOs;
-using Wellness.Application.DTOs.Commands;
+using Wellness.Application.Features.Auth.Commands;
 using Wellness.Application.Interfaces;
 
 namespace Wellness.Application.Features.Auth.Handlers

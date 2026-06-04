@@ -117,10 +117,13 @@ builder.Services.AddScoped<IHabitRepository, HabitRepository>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IWeightRepository, WeightRepository>();
+builder.Services.AddScoped<IDietRepository, DietRepository>();
+builder.Services.AddScoped<IWellnessProfileRepository, WellnessProfileRepository>();
+builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
 builder.Services.AddHttpClient<IOpenAiService, OpenAiService>();
 builder.Services.AddScoped<IPasswordService, PasswordService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
-
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 
 var app = builder.Build();

@@ -20,8 +20,7 @@ namespace Wellness.API.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(
-            UpdateHabitCommand command)
+        public async Task<IActionResult> Update(UpdateHabitCommand command)
         {
             var result = await _mediator.Send(command);
 
@@ -31,11 +30,7 @@ namespace Wellness.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            var result = await _mediator.Send(
-                new DeleteHabitCommand
-                {
-                    Id = id
-                });
+            var result = await _mediator.Send(new DeleteHabitCommand(id));
 
             return Ok(result);
         }

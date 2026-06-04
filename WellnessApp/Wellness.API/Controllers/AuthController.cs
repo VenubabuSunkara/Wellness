@@ -2,6 +2,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Wellness.Application.DTOs.Commands;
+using Wellness.Application.Features.Auth.Commands;
 using Wellness.Application.Features.Register.Commands;
 
 namespace Wellness.API.Controllers

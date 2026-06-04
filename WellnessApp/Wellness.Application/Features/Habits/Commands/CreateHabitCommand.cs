@@ -5,10 +5,5 @@ using System.Text;
 
 namespace Wellness.Application.Features.Habits.Commands
 {
-    public class CreateHabitCommand : IRequest<Guid>
-    {
-        public Guid UserId { get; set; }
-
-        public string Title { get; set; } = default!;
-    }
+    public sealed record CreateHabitCommand(Guid UserId, string Title) : IRequest<Guid>;
 }

@@ -4,7 +4,7 @@ using Wellness.Application.Interfaces;
 using Wellness.Domain.Entities;
 namespace Wellness.Application.Features.Habits.Handler
 {
-    public class CreateHabitCommandHandler(IHabitRepository habitRepository) : IRequestHandler<CreateHabitCommand, Guid>
+    public sealed class CreateHabitCommandHandler(IHabitRepository habitRepository) : IRequestHandler<CreateHabitCommand, Guid>
     {
         private readonly IHabitRepository _habitRepository = habitRepository;
 
@@ -18,9 +18,7 @@ namespace Wellness.Application.Features.Habits.Handler
             };
 
             await _habitRepository.AddAsync(habit);
-
             await _habitRepository.SaveChangesAsync();
-
             return habit.Id;
         }
     }

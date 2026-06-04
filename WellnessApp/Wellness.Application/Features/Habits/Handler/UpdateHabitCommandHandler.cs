@@ -7,7 +7,7 @@ using Wellness.Application.Interfaces;
 
 namespace Wellness.Application.Features.Habits.Handler
 {
-    public class UpdateHabitCommandHandler(IHabitRepository repository) : IRequestHandler<UpdateHabitCommand, bool>
+    public sealed class UpdateHabitCommandHandler(IHabitRepository repository) : IRequestHandler<UpdateHabitCommand, bool>
     {
         private readonly IHabitRepository _repository = repository;
 
