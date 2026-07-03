@@ -1,0 +1,246 @@
+﻿/* ==========================================
+   WellnessPro AI
+   Animation Library
+   Version 1.0
+==========================================*/
+
+/* ---------- Fade ---------- */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn .8s ease;
+}
+
+/* ---------- Fade Up ---------- */
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    animation: fadeUp .8s ease forwards;
+}
+
+/* ---------- Fade Down ---------- */
+
+@keyframes fadeDown {
+
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-down {
+    animation: fadeDown .8s ease forwards;
+}
+
+/* ---------- Slide Left ---------- */
+
+@keyframes slideLeft {
+
+    from {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-left {
+    animation: slideLeft .8s ease forwards;
+}
+
+/* ---------- Slide Right ---------- */
+
+@keyframes slideRight {
+
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-right {
+    animation: slideRight .8s ease forwards;
+}
+
+/* ---------- Zoom ---------- */
+
+@keyframes zoomIn {
+
+    from {
+        opacity: 0;
+        transform: scale(.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.zoom-in {
+    animation: zoomIn .7s ease;
+}
+
+/* ---------- Floating ---------- */
+
+@keyframes floating {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.floating {
+    animation: floating 4s ease-in-out infinite;
+}
+
+/* ---------- Rotation ---------- */
+
+@keyframes rotate360 {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate {
+    animation: rotate360 15s linear infinite;
+}
+
+/* ---------- Pulse ---------- */
+
+@keyframes pulse {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+/* ---------- Gradient ---------- */
+
+@keyframes gradientMove {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-bg {
+    background: linear-gradient( 270deg, #6C4CF1, #00C2FF, #7C3AED );
+    background-size: 300% 300%;
+    animation: gradientMove 8s ease infinite;
+}
+
+/* ---------- Card Hover ---------- */
+
+.hover-card {
+    transition: .35s;
+}
+
+    .hover-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 45px rgba(0,0,0,.30);
+    }
+
+/* ---------- Button Hover ---------- */
+
+.hover-btn {
+    transition: .3s;
+}
+
+    .hover-btn:hover {
+        transform: translateY(-3px);
+    }
+
+/* ---------- Spinner ---------- */
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid rgba(255,255,255,.15);
+    border-top: 5px solid var(--primary);
+    border-radius: 50%;
+    animation: rotate360 .8s linear infinite;
+}
+
+/* ---------- Skeleton ---------- */
+
+.skeleton {
+    height: 18px;
+    border-radius: 8px;
+    background: linear-gradient( 90deg, #2B3352 25%, #3A4268 50%, #2B3352 75% );
+    background-size: 200% 100%;
+    animation: gradientMove 1.5s infinite;
+}
+
+/* ---------- Page ---------- */
+
+.page-enter {
+    animation: fadeUp .6s ease;
+}

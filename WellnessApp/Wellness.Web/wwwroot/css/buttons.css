@@ -1,0 +1,51 @@
+﻿/* ==========================================
+   Buttons
+========================================== */
+
+.btn {
+    border-radius: 50px;
+    padding: 12px 28px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-gradient {
+    background: linear-gradient( 135deg, var(--primary), var(--secondary));
+    border: none;
+    color: #fff;
+}
+
+    .btn-gradient:hover {
+        color: #fff;
+        transform: translateY(-3px);
+        box-shadow: 0 15px 30px rgba(108,76,241,.35);
+    }
+
+.btn-glass {
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.15);
+    color: #fff;
+}
+
+    .btn-glass:hover {
+        background: rgba(255,255,255,.15);
+    }
+
+.btn-outline {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+    .btn-outline:hover {
+        background: var(--primary);
+        color: #fff;
+    }
+
+.btn-icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

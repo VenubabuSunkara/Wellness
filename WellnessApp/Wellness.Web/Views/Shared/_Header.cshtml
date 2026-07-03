@@ -1,0 +1,241 @@
+﻿@* ==========================================
+   WellnessPro AI - Premium Header
+   Version : 1.0
+   ========================================== *@
+
+<header id="mainHeader" class="navbar navbar-expand-xl fixed-top">
+
+    <div class="container-fluid">
+
+        <!-- Logo -->
+        <a asp-controller="Home"
+           asp-action="Index"
+           class="navbar-brand">
+
+            <img src="https://placehold.co/50" @* src="~/images/logo.png" *@
+                 class="logo"
+                 alt="WellnessPro AI" />
+
+            <span class="logo-text">
+
+                WellnessPro <span class="text-gradient">AI</span>
+
+            </span>
+
+        </a>
+
+        <!-- Mobile Menu -->
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+            <i class="bi bi-list"></i>
+
+        </button>
+
+        <!-- Navigation -->
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarMenu">
+
+            <ul class="navbar-nav me-auto">
+
+                <li class="nav-item">
+                    <a asp-controller="Home"
+                       asp-action="Index"
+                       class="nav-link">
+
+                        Home
+
+                    </a>
+                </li>
+
+                <!-- Features -->
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       role="button"
+                       data-bs-toggle="dropdown">
+
+                        Features
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a class="dropdown-item" href="#">AI Coach</a></li>
+
+                        <li><a class="dropdown-item" href="#">Nutrition</a></li>
+
+                        <li><a class="dropdown-item" href="#">Workout</a></li>
+
+                        <li><a class="dropdown-item" href="#">Habit Tracker</a></li>
+
+                        <li><a class="dropdown-item" href="#">Water Tracker</a></li>
+
+                        <li><a class="dropdown-item" href="#">Weight Tracker</a></li>
+
+                        <li><a class="dropdown-item" href="#">Sleep Tracker</a></li>
+
+                    </ul>
+
+                </li>
+
+                <!-- Solutions -->
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       data-bs-toggle="dropdown">
+
+                        Solutions
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a class="dropdown-item" href="#">Individuals</a></li>
+
+                        <li><a class="dropdown-item" href="#">Coaches</a></li>
+
+                        <li><a class="dropdown-item" href="#">Gyms</a></li>
+
+                        <li><a class="dropdown-item" href="#">Hospitals</a></li>
+
+                        <li><a class="dropdown-item" href="#">Corporate Wellness</a></li>
+
+                    </ul>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="#pricing">
+
+                        Pricing
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="#blog">
+
+                        Blog
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="#about">
+
+                        About
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="#contact">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+            <!-- Right Side -->
+
+            <div class="d-flex align-items-center">
+
+                <!-- Search -->
+
+                <button class="btn btn-icon">
+
+                    <i class="bi bi-search"></i>
+
+                </button>
+
+                <!-- Theme -->
+
+                <button id="themeSwitcher"
+                        class="btn btn-icon">
+
+                    <i class="bi bi-moon-stars"></i>
+
+                </button>
+
+                <!-- Language -->
+
+                <div class="dropdown">
+
+                    <button class="btn btn-icon"
+                            data-bs-toggle="dropdown">
+
+                        <i class="bi bi-globe"></i>
+
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-end">
+
+                        <li><a class="dropdown-item" href="#">English</a></li>
+
+                        <li><a class="dropdown-item" href="#">Telugu</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="header-actions">
+                    <a asp-controller="Account"
+                       asp-action="Login"
+                       class="btn-login">
+                        Login
+                    </a>
+                    <a asp-controller="Account"
+                       asp-action="Register"
+                       class="btn-primary-gradient">
+                        Get Started
+                        <i class="bi bi-arrow-right-short"></i>
+                    </a>
+                </div>
+                <!-- Login -->
+
+              @*   <a asp-controller="Account"
+                   asp-action="Login"
+                   class="btn btn-outline-light rounded-pill">
+
+                    Login
+
+                </a>
+ *@
+                <!-- Register -->
+
+              @*   <a asp-controller="Account"
+                   asp-action="Register"
+                   class="btn btn-gradient rounded-pill">
+
+                    Get Started
+
+                </a> *@
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>

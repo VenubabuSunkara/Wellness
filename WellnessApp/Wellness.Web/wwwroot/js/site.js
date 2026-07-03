@@ -1,4 +1,67 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿const backToTop = document.getElementById("backToTop");
 
-// Write your JavaScript code.
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 400) {
+
+        backToTop.style.display = "flex";
+
+    } else {
+
+        backToTop.style.display = "none";
+
+    }
+
+});
+
+backToTop.addEventListener("click", () => {
+
+    window.scrollTo({
+
+        top: 0,
+
+        behavior: "smooth"
+
+    });
+
+});
+
+if (localStorage.getItem("cookieAccepted")) {
+
+    document.getElementById("cookieConsent").style.display = "none";
+
+}
+
+document.getElementById("acceptCookies").onclick = function () {
+
+    localStorage.setItem("cookieAccepted", true);
+
+    document.getElementById("cookieConsent").style.display = "none";
+
+}
+
+window.addEventListener("load", function () {
+
+    const preloader = document.getElementById("preloader");
+
+    if (preloader) {
+
+        preloader.style.opacity = "0";
+
+        preloader.style.visibility = "hidden";
+
+        setTimeout(() => {
+
+            preloader.remove();
+
+        }, 500);
+
+    }
+
+});
+
+// window.onload = function () {
+
+//     document.getElementById("preloader").classList.add("hide");
+
+// };

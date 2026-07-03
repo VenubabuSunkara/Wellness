@@ -1,0 +1,61 @@
+﻿.features {
+    background: var(--background);
+}
+
+.section-badge {
+    background: rgba(108,76,241,.15);
+    color: var(--primary);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.section-description {
+    max-width: 700px;
+    margin: auto;
+    color: var(--text-secondary);
+}
+
+.feature-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 35px;
+    transition: .35s;
+    height: 100%;
+}
+
+    .feature-card:hover {
+        transform: translateY(-10px);
+        border-color: var(--primary);
+    }
+
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border-radius: 20px;
+    background: linear-gradient(135deg,var(--primary),var(--secondary));
+    margin-bottom: 20px;
+}
+
+.feature-card h4 {
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    margin-bottom: 20px;
+}
+
+.feature-card a {
+    color: var(--primary);
+    font-weight: 600;
+}

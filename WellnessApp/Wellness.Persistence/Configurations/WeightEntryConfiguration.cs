@@ -24,7 +24,7 @@ namespace Wellness.Persistence.Configurations
                 .HasPrecision(18, 2);
 
             builder.Property(x => x.BasalMetabolicRate)
-                .HasPrecision(18);
+                .HasPrecision(18,2);
 
             builder.Property(x => x.MuscleMass)
                 .HasPrecision(18, 2);
@@ -39,6 +39,8 @@ namespace Wellness.Persistence.Configurations
                 .HasPrecision(18);
 
             builder.Property(x => x.BMI)
+                .HasPrecision(18, 2);
+            builder.Property(x=>x.Height)
                 .HasPrecision(18, 2);
         }
     }

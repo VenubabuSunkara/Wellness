@@ -1,0 +1,163 @@
+﻿/* ==========================================
+   WellnessPro AI
+   Hero Section
+========================================== */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle at top right,#6C4CF122,transparent 40%), radial-gradient(circle at bottom left,#00C2FF22,transparent 40%), var(--background);
+    padding-top: 140px;
+    padding-bottom: 120px;
+}
+
+/* Background */
+
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient( 135deg, rgba(108,76,241,.08), rgba(0,194,255,.05));
+    z-index: 0;
+}
+
+/* Content */
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.15);
+    color: #fff;
+    font-weight: 600;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.hero-description {
+    max-width: 550px;
+    color: var(--text-secondary);
+    font-size: 18px;
+}
+
+/* Buttons */
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+    .hero-buttons .btn {
+        padding: 15px 35px;
+        border-radius: 50px;
+    }
+
+/* Dashboard */
+
+.hero-dashboard {
+    position: relative;
+    height: 650px;
+}
+
+.dashboard-card {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    width: 520px;
+    border-radius: 25px;
+    overflow: hidden;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba(255,255,255,.10);
+    box-shadow: 0 30px 80px rgba(0,0,0,.35);
+}
+
+/* Floating Cards */
+
+.floating-card {
+    position: absolute;
+    width: 170px;
+    padding: 18px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(18px);
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,.15);
+    color: #fff;
+    animation: floating 5s infinite ease-in-out;
+}
+
+.card-one {
+    top: 0;
+    left: 0;
+}
+
+.card-two {
+    right: 0;
+    top: 130px;
+}
+
+.card-three {
+    left: 60px;
+    bottom: 120px;
+}
+
+.card-four {
+    right: 30px;
+    bottom: 10px;
+}
+
+/* Users */
+
+.hero-users {
+    margin-top: 50px;
+    color: var(--text-secondary);
+}
+
+    .hero-users strong {
+        font-size: 34px;
+        color: #fff;
+    }
+
+/* Responsive */
+
+@media(max-width:991px) {
+
+    .hero {
+        padding-top: 120px;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 42px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-dashboard {
+        margin-top: 70px;
+        height: auto;
+    }
+
+    .dashboard-card {
+        position: relative;
+        width: 100%;
+        right: auto;
+        top: auto;
+    }
+
+    .floating-card {
+        display: none;
+    }
+}

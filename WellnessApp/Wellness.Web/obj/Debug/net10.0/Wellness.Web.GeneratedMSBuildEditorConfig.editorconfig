@@ -51,6 +51,50 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_AIShowcase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfQUlTaG93Y2FzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_DownloadApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfRG93bmxvYWRBcHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_FAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfRkFRLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_Features.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfRmVhdHVyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_Hero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfSGVyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_HowItWorks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfSG93SXRXb3Jrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_Newsletter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfTmV3c2xldHRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_Pricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfUHJpY2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_ProductShowcase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfUHJvZHVjdFNob3djYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_Statistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfU3RhdGlzdGljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Partials/_Testimonials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfVGVzdGltb25pYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -65,6 +109,42 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_BackToTop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYWNrVG9Ub3AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_CookieConsent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_Preloader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QcmVsb2FkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_SearchModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_ThemeSwitcher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UaGVtZVN3aXRjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_UserProfileDropdown.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyUHJvZmlsZURyb3Bkb3duLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VenuWellness/Wellness/WellnessApp/Wellness.Web/Views/Shared/_ValidationScriptsPartial.cshtml]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wellness.Mobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5619289df367b3d090b142d40bf6b7fdc6d38b0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74186bfe6e96c30275b533105aa504b0d128fa7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wellness.Mobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wellness.Mobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
