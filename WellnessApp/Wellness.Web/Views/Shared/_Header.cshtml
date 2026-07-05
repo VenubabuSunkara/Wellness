@@ -12,7 +12,7 @@
            asp-action="Index"
            class="navbar-brand">
 
-            <img src="https://placehold.co/50" @* src="~/images/logo.png" *@
+            <img src="~/images/logo.png"
                  class="logo"
                  alt="WellnessPro AI" />
 
@@ -200,42 +200,21 @@
 
                 </div>
                 <div class="header-actions">
-                    <a asp-controller="Account"
+                    <!-- Login -->
+                    <a asp-controller="Auth"
                        asp-action="Login"
                        class="btn-login">
                         Login
                     </a>
-                    <a asp-controller="Account"
+                    <!-- Register -->
+                    <a asp-controller="Auth"
                        asp-action="Register"
                        class="btn-primary-gradient">
                         Get Started
                         <i class="bi bi-arrow-right-short"></i>
                     </a>
                 </div>
-                <!-- Login -->
-
-              @*   <a asp-controller="Account"
-                   asp-action="Login"
-                   class="btn btn-outline-light rounded-pill">
-
-                    Login
-
-                </a>
- *@
-                <!-- Register -->
-
-              @*   <a asp-controller="Account"
-                   asp-action="Register"
-                   class="btn btn-gradient rounded-pill">
-
-                    Get Started
-
-                </a> *@
-
             </div>
-
         </div>
-
     </div>
-
 </header>

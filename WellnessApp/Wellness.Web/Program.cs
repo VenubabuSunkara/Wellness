@@ -1,5 +1,12 @@
+using Wellness.Web.Services;
+using Wellness.Web.Services.Interface;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddHttpClient<IApiClient, ApiClient>(client =>
+{
+    client.BaseAddress = new Uri(builder.Configuration["ApiSettings:BaseUrl"]!);
+});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.Configure<CookiePolicyOptions>(options =>

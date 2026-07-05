@@ -120,7 +120,6 @@ D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\rjsmcshtml.d
 D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\scopedcss\bundle\Wellness.Web.styles.css
 D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\scopedcss\projectbundle\Wellness.Web.bundle.scp.css
-D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\compressed\ns4msqtaw1-{0}-61n19gt1b8-61n19gt1b8.gz
 D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\compressed\t60xdoan7f-{0}-bqjiyaj88i-bqjiyaj88i.gz
 D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\compressed\25srxc2g5f-{0}-c2jlpeoesf-c2jlpeoesf.gz
 D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\compressed\c3agrqe48r-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -215,3 +214,4 @@ D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\compressed\f
 D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\compressed\74cs40jfg4-{0}-8ejm3uybo7-8ejm3uybo7.gz
 D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\compressed\gs0n7lo395-{0}-ofa5aqnbah-ofa5aqnbah.gz
 D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\compressed\w89bmxnrhp-{0}-uqgo3m3wqn-uqgo3m3wqn.gz
+D:\VenuWellness\Wellness\WellnessApp\Wellness.Web\obj\Debug\net10.0\compressed\ns4msqtaw1-{0}-f01u3x9zr3-f01u3x9zr3.gz

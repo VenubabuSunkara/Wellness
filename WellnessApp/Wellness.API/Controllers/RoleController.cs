@@ -6,7 +6,7 @@ namespace Wellness.API.Controllers
 {
     [ApiController]
     [Route("api/roles")]
-    public class RoleController(IMediator mediator) : ControllerBase
+    public class RoleController(IMediator mediator) : BaseApiController
     {
         private readonly IMediator _mediator = mediator;
 

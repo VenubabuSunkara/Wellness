@@ -14,13 +14,13 @@ namespace Wellness.Application.DTOs.Commands
         private readonly IConfiguration _configuration = configuration;
         public async Task<LoginResponseDto> Handle(LoginCommand request, CancellationToken cancellationToken)
         {
-            var user = await _userRepository.GetByEmailAsync(request.Email, cancellationToken) ?? throw new Exception("Invalid User");
+            var user = await _userRepository.GetByEmailAsync(request.Email, cancellationToken) ?? throw new UnauthorizedAccessException("Invalid user.");
             // Verify password
             bool isValid = BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash);
 
             if (!isValid)
             {
-                throw new Exception("Invalid Password");
+                throw new UnauthorizedAccessException("Invalid password.");
             }
 
             var token = _jwtService.GenerateToken(user);

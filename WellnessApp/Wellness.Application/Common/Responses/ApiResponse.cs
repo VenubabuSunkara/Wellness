@@ -33,7 +33,7 @@ namespace Wellness.Application.Common.Responses
             {
                 Success = false,
                 Message = message,
-                Errors = errors ?? new List<string>(),
+                Errors = errors ?? [],
                 StatusCode = statusCode
             };
         }

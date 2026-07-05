@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wellness.Files")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74186bfe6e96c30275b533105aa504b0d128fa7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82addb7d6a15dd42c79dd2d1db2ef18442fe00bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wellness.Files")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wellness.Files")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

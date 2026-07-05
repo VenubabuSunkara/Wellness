@@ -28,4 +28,8 @@
     <ProjectReference Include="..\Wellness.Application\Wellness.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

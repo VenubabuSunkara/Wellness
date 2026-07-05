@@ -1,16 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+using Wellness.Web.Services.Interface;
 using Wellness.Web.ViewModels;
 
 namespace Wellness.Web.Controllers
 {
-    public class AuthController : Controller
+    public class AuthController(IAuthService authService) : Controller
     {
-        private readonly HttpClient _httpClient;
-
-        public AuthController(IHttpClientFactory factory)
-        {
-            _httpClient = factory.CreateClient();
-        }
+        private readonly IAuthService _authService = authService;
 
         [HttpGet]
         public IActionResult Login()
@@ -19,23 +16,26 @@ namespace Wellness.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(
-            LoginViewModel model)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
-            var response = await _httpClient.PostAsJsonAsync(
-                "https://localhost:5001/api/auth/login",
-                model);
-
-            if (response.IsSuccessStatusCode)
+            if (!ModelState.IsValid)
+                return View(model);
+            try
             {
-                return RedirectToAction(
-                    "Index",
-                    "Dashboard");
+                var result = await _authService.LoginAsync(model);
+
+                // Save JWT Token
+                HttpContext.Session.SetString("Token", result.Token);
+
+                // Save User Name
+                HttpContext.Session.SetString("UserName", result.FullName);
+                return RedirectToAction("Index", "Dashboard");
             }
-
-            ViewBag.Error = "Invalid Login";
-
-            return View(model);
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+                return View(model);
+            }
         }
     }
 }

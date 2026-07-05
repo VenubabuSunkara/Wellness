@@ -7,7 +7,7 @@ namespace Wellness.API.Controllers
 {
     [ApiController]
     [Route("api/habits")]
-    public class HabitController(IMediator mediator) : ControllerBase
+    public class HabitController(IMediator mediator) : BaseApiController
     {
         private readonly IMediator _mediator = mediator;
 

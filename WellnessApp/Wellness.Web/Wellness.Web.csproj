@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Helpers\" />
-    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wellness.Application\Wellness.Application.csproj" />
   </ItemGroup>
 
 </Project>
