@@ -1,0 +1,20 @@
+﻿@model WeightTrackingViewModel
+<form method="post">
+    <div class="card">
+        <div class="card-header">
+            <h4>Weight Tracking</h4>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <div class="form-group">
+                    <label asp-for="Weight" class="form-label">Weight (kg)</label>
+                    <input asp-for="Weight" class="form-control" type="number" step="any" min="0" />
+                    <span asp-validation-for="Weight" class="text-danger"></span>
+                </div>
+            </div>
+            <button class="btn btn-success">
+                Save
+            </button>
+        </div>
+    </div>
+</form>
